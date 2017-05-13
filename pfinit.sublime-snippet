@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<script>
+// Picture element HTML5 shiv
+document.createElement( "picture" );
+</script>
+<script src="${1:picturefill.js}" async></script>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>pfinit</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>picturefill insert &lt;head&gt;</description>
+  <scope>source.html, text.html</scope>
+</snippet>
